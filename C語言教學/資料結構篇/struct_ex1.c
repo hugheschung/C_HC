@@ -1,7 +1,7 @@
 /*
-	*檔案名稱:
-	*程式名稱:
-	*程式說明:
+	*檔案名稱:struct_ex1
+	*程式名稱:進階程式設計-資料結構篇---範例1 
+	*程式說明:理解使用C語言資料結構宣告方法，無設初值 
 	*
 */
 
@@ -9,7 +9,7 @@
 
 int main(void){
 	
-	struct data
+	struct data    //宣告結構data 
 	{
 		char name[10];
 		int math;
