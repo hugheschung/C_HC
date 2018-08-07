@@ -1,7 +1,7 @@
 /*
-	*檔案名稱:
-	*程式名稱:
-	*程式說明:
+	*檔案名稱:struct_ex2_2
+	*程式名稱:進階程式設計-資料結構篇---範例2_2
+	*程式說明:資料結構成員設初始值範例，請跟範例2_1比較。
 	*
 */
 
@@ -13,13 +13,9 @@ int main(void){
 	{
 		char name[20];
 		int math;
-	}student={"hello kitty",100};
+	}student={"hello kitty",100};   //結構成員設初值
 	
-	/*printf("請輸入姓名: ");
-	//gets(student.name);
-	scanf("%s",&student.name);
-	printf("請輸入成績:");
-	scanf("%d",&student.math);*/
+	
 	
 	printf("姓名:%s\n",student.name);
 	printf("成績:%d\n",student.math);
